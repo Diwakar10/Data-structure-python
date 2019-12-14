@@ -1,0 +1,9 @@
+l=list(input().split())
+le=len(l)
+le//2
+l1=l[:le]
+l2=l[le:]
+l1.sort()
+l2.sort()
+full=l1+l2
+print(full)
